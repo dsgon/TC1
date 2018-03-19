@@ -38,7 +38,7 @@ public class Ejer10 {
 			
 		}
 		
-		
+		input.close();
 
 	}
 

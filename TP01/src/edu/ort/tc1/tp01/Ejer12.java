@@ -54,7 +54,8 @@ public class Ejer12 {
 		System.out.println("Precio unitario:      $"+precioUnitario);
 		System.out.println("Total a pagar:        $"+totalAPagar);
 		System.out.println("******** FIN DE TICKET ********");
-		
+
+		input.close();
 
 	}
 

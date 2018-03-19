@@ -26,5 +26,7 @@ public class Ejer03 {
 		
 		System.out.println("Bienvenido "+nombre+"!");
 		
+		input.close();
+		
 	}
 }

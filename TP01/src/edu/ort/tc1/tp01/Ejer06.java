@@ -45,6 +45,8 @@ public class Ejer06 {
 			if(num3>num1 && num3>num2)
 				System.out.println("El mayor numero es num3: "+num3);
 		}
+		
+		input.close();
 
 	}
 
