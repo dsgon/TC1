@@ -33,6 +33,8 @@ public class Ejer04 {
 		
 		//El resultado no es correcto. La solucion es:
 		System.out.println("La suma entre " + num1 + " y " + num2 + " da como resultado " + (num1 + num2));
+		
+		input.close();
 
 	}
 

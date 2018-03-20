@@ -54,6 +54,8 @@ public class Ejer08 {
 		
 		System.out.println("Monto total aportado: $"+capital);
 
+		input.close();
+		
 	}
 
 }

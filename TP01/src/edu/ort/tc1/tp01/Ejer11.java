@@ -36,6 +36,8 @@ public class Ejer11 {
 			sonIguales = false;
 			System.out.println("Los numeros no son iguales y el valor de 'sonIguales' es: "+sonIguales);
 		}
+		
+		input.close();
 
 	}
 

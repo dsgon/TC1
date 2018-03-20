@@ -44,9 +44,7 @@ public class Ejer07 {
 				System.out.println("Se necesitan de "+cantidadCajones+" cajones");
 		}
 			
-		
-		
-		
+		input.close();		
 
 	}
 

@@ -52,6 +52,8 @@ public class Ejer09 {
 			break;
 
 		}
+		
+		input.close();
 
 	}
 
