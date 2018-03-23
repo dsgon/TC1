@@ -30,7 +30,7 @@ public class Ejer12 {
 
 		String fechaCompra,nombreCompleto,producto;
 		int cantidad;
-		float precioUnitario,totalAPagar;
+		double precioUnitario,totalAPagar;
 		
 		System.out.println("Por favor ingrese la fecha de la compra en el formato YYYYMMDD. Ej: 20180317.");
 		fechaCompra = input.nextLine();
@@ -41,7 +41,7 @@ public class Ejer12 {
 		System.out.println("Por favor ingrese la cantidad del producto a comprar.");
 		cantidad = input.nextInt();
 		System.out.println("Por favor ingrese el precio del producto a comprar.");
-		precioUnitario = input.nextFloat();
+		precioUnitario = input.nextDouble();
 		
 		totalAPagar = cantidad * precioUnitario;
 		
