@@ -33,11 +33,13 @@ public class Ejer07 {
 		cantidadCajones = manzanas/CANTIDAD_MANZANAS_X_CAJON;
 		
 		if (residuo>=1){
+			// Esta condicion es para saber si el mensaje es con cajon o cajones
 			if (cantidadCajones==1)
 				System.out.println("Se necesita de "+(cantidadCajones+1)+" cajón");
 			else
 				System.out.println("Se necesitan de "+(cantidadCajones+1)+" cajones");
 		}else{
+			// Esta condicion es para saber si el mensaje es con cajon o cajones
 			if (cantidadCajones==1)
 				System.out.println("Se necesita de "+cantidadCajones+" cajón");
 			else
