@@ -21,7 +21,7 @@ public class Ejer02 {
 		
 		System.out.println("El resultado de la suma es: "+(num1+num2));
 		
-		System.out.println("El producto de los numeros es: "+num1+num2);
+		System.out.println("El producto de los numeros es: "+num1*num2);
 	
 	}
 
