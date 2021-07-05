@@ -21,7 +21,8 @@ public class Ejer05 {
 
 	public static void main(String[] args) {
 		
-		int num1, num2, resultado;
+		int num1, num2, resultadoInt, resto;
+		double resultadoDouble;
 		
 		System.out.println("Por favor ingrese un numero:");
 		num1 = input.nextInt();
@@ -32,8 +33,14 @@ public class Ejer05 {
 		if(num2==0)
 			System.out.println("No se puede dividir por cero");
 		else{
-			resultado = num1/num2;
-			System.out.println(num1+" / "+num2+" = "+resultado);
+			resto = num1%num2;
+			if(resto>0) {
+				resultadoDouble = (double)num1/num2;
+				System.out.println(num1+" / "+num2+" = "+resultadoDouble);
+			} else {
+				resultadoInt = num1/num2;
+				System.out.println(num1+" / "+num2+" = "+resultadoInt);
+			}
 		}
 		
 		/*Otra opcion para hacerlo mas directo sin manejo de una variable 

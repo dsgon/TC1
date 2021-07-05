@@ -22,7 +22,7 @@ public class Ejer09 {
 		
 		int numero;
 		
-		System.out.println("Por favor ingrese un numero: ");
+		System.out.println("Por favor ingrese un numero entero: ");
 		numero = input.nextInt();
 		
 		switch (numero) {

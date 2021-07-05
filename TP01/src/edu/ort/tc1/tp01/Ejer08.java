@@ -25,7 +25,7 @@ public class Ejer08 {
 	public static void main(String[] args) {
 		
 		String nombre1,nombre2,nombre3;
-		float monto1,monto2,monto3,porcentaje1,porcentaje2,porcentaje3,capital;
+		double monto1,monto2,monto3,porcentaje1,porcentaje2,porcentaje3,capital;
 		
 		System.out.println("Primera persona, por favor ingrese su nombre: ");
 		nombre1 = input.nextLine();
@@ -35,11 +35,11 @@ public class Ejer08 {
 		nombre3 = input.nextLine();
 		
 		System.out.println(nombre1+" por favor ingrese su capital aportado");
-		monto1 = input.nextFloat();		
+		monto1 = input.nextDouble();		
 		System.out.println(nombre2+" por favor ingrese su capital aportado");
-		monto2 = input.nextFloat();
+		monto2 = input.nextDouble();
 		System.out.println(nombre3+" por favor ingrese su capital aportado");
-		monto3 = input.nextFloat();
+		monto3 = input.nextDouble();
 		
 		capital = monto1+monto2+monto3;
 		
